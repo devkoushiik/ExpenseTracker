@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { categories } from "./expense-traker/category";
-import ExpenceTraker from "./components/ExpenceTraker/ExpenceTraker";
-import Form from "./components/Form";
 import ExpenseList from "./expense-traker/components/ExpenseList";
 import ExpenseFilter from "./expense-traker/components/ExpenseFilter";
 import ExpenseForm from "./expense-traker/components/ExpenseForm";
@@ -12,7 +10,7 @@ function App() {
   const [expenses, setExpenses] = useState([
     {
       id: 1,
-      description: "milk",
+      description: "Milk",
       amount: 19,
       category: "Utility",
     },
