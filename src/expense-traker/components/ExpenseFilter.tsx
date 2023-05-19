@@ -12,7 +12,7 @@ const ExpenseFilter = ({ onSelectCategory }: Props) => {
       className="form-select"
       onChange={(event) => onSelectCategory(event.target.value)}
     >
-      <option value="">All categoris</option>
+      <option value="">All categories</option>
       {categories.map((c) => (
         <option key={c} value={c}>
           {c}
