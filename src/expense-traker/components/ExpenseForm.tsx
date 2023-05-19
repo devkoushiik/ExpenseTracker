@@ -35,7 +35,7 @@ const ExpenseForm = ({ onSubmit }: Props) => {
   return (
     <form
       action=""
-      onSubmit={handleSubmit((data) => {
+      onSubmit={handleSubmit((data: any) => {
         onSubmit(data);
         reset();
       })}
